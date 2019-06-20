@@ -91,9 +91,6 @@ local FRQdofile CCRX_FRQ_DataChecking
 *HHQmember_DataChecking File Name
 local HHQmemberdofile CCRX_HHQmember_DataChecking
 
-*WASH do file
-local WASHdofile CCRX_WASH
-
 *CleaningByRE_Female date and initials
 local CleanFemaledate 05Oct2015
 
@@ -215,7 +212,6 @@ run "$dofiledir/`HHQmemberdofile'.do"
 use `CCRX'_HHQ_$date.dta
 merge 1:m metainstanceID using `CCRX'_HHQmember_$date, gen (HHmemb)
 save `CCRX'_HHQCombined, replace
-run "$dofiledir/`WASHdofile'.do"
 save `CCRX'_Combined_$date, replace
 
 
