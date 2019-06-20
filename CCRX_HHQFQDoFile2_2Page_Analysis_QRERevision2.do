@@ -29,16 +29,16 @@ numlabel, add
 *******************************************************************************
 
 * Set macros for country and round
-local country "Nigeria"
-local round "Round5Oyo"
-local CCRX "NGOyoR5"
+local country "BF"
+local round "Round7"
+local CCRX "BFR7"
 
 * Set macros for contraceptive methods
 local mcp "(current_methodnumEC>=1 & current_methodnumEC>>=19)"
 local tcp "(current_methodnumEC>=30 & current_methodnumEC<=39)"
 
 * Set macro for date of most recently generated weighted HHQ/FQ dataset with wealth and unmet need variables that intend to use
-local datadate "23Feb2018"
+local datadate "23Jul2019"
 
 * Set macros for data sets
 local householddata "/Users/ealarson/Documents/Côte d'Ivoire/Data_NotShared/Round1/HHQFQ/Analysis - 02.23.2018/CIR1_WealthWeightAll_8Aug2018.dta"
