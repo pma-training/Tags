@@ -30,15 +30,15 @@ numlabel, add
 *******************************************************************************
 
 * Set local macros for country and round
-local country "Nigeria-Oyo"
-local round "Round5Oyo"
-local CCRX "NGOyoR5"
+local country "BF"
+local round "Round7"
+local CCRX "BFR7"
 local assets "electricity-boatmotor" 
 local water "water_pipe2dwelling-water_sachet"
-local wealthgroup 5
+local wealthgroup 3
 
 * Set macro for date of HHQ/FQ EC recode dataset that intend to use
-local datadate "20Dec2017"
+local datadate "20July2019"
 
 * Set directory for country and round 
 global datadir "/Users/pma2020/Dropbox (Gates Institute)/Nigeria/Data_NotShared/Round5Oyo/Data/HHQFQ"
